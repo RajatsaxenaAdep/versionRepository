@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EDIOUTBOUNDRELATIONSHIP>
-        <au_unbEnvelope><![CDATA[]]></au_unbEnvelope>
-        <au_isDecryptionRequired><![CDATA[0]]></au_isDecryptionRequired>
-        <au_contentBasedRouting><![CDATA[0]]></au_contentBasedRouting>
-        <au_associationAssignedCode><![CDATA[]]></au_associationAssignedCode>
-        <au_description><![CDATA[EDIOutboundRelationship_11685595640539_7]]></au_description>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_groupEnvelopeAssoCode><![CDATA[]]></au_groupEnvelopeAssoCode>
+        <au_decryptionActivity><![CDATA[null]]></au_decryptionActivity>
+        <au_hipaa><![CDATA[false]]></au_hipaa>
+        <au_modifiedDate><![CDATA[2023-06-01T10:41:52]]></au_modifiedDate>
+        <au_ediTransactionSet><![CDATA[997]]></au_ediTransactionSet>
         <au_isArchived><![CDATA[0]]></au_isArchived>
-        <au_applicationID><![CDATA[]]></au_applicationID>
-        <au_id><![CDATA[192168001162168559631190800002]]></au_id>
-        <au_outboundTargetType><![CDATA[Ftp]]></au_outboundTargetType>
+        <au_groupReceiverID><![CDATA[AMAZON]]></au_groupReceiverID>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
         <au_hoursOverdue><![CDATA[]]></au_hoursOverdue>
-        <au_targetFileName><![CDATA[AcknowledgeMentOutput|0|0|txt|N]]></au_targetFileName>
+        <au_associationAssignedCode><![CDATA[]]></au_associationAssignedCode>
+        <au_creationDate><![CDATA[2023-06-01T10:41:52]]></au_creationDate>
         <au_lastusedTrancontrolno><![CDATA[]]></au_lastusedTrancontrolno>
+        <au_lastUsedControlNo><![CDATA[]]></au_lastUsedControlNo>
+        <au_parentServiceTypedID><![CDATA[EDITradingPartner:192168001162168551393938500028]]></au_parentServiceTypedID>
+        <au_ackType><![CDATA[null]]></au_ackType>
+        <au_ediStandardVersion><![CDATA[004010]]></au_ediStandardVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[EDIOutboundRelationship_11685595640539_7]]></au_description>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_isDecryptionRequired><![CDATA[0]]></au_isDecryptionRequired>
+        <au_groupSenderID><![CDATA[35263377]]></au_groupSenderID>
+        <au_docAdvSkipComplianceCheck><![CDATA[0]]></au_docAdvSkipComplianceCheck>
+        <au_contentBasedRouting><![CDATA[0]]></au_contentBasedRouting>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_isEncryptionnRequired><![CDATA[0]]></au_isEncryptionnRequired>
+        <au_seqFromLastUsedControlNo><![CDATA[null]]></au_seqFromLastUsedControlNo>
+        <au_isUnencryptedArchivalFile><![CDATA[0]]></au_isUnencryptedArchivalFile>
+        <au_outboundSource><![CDATA[none]]></au_outboundSource>
+        <au_isaEnvelope><![CDATA[EDIISAOutboundEnvelope:192168001162168559631022000001]]></au_isaEnvelope>
+        <au_sourceType1><![CDATA[none]]></au_sourceType1>
+        <au_seqFromGroup><![CDATA[0]]></au_seqFromGroup>
+        <au_unbEnvelope><![CDATA[]]></au_unbEnvelope>
         <au_ediStandard><![CDATA[X12]]></au_ediStandard>
         <au_status><![CDATA[OFF]]></au_status>
-        <au_decryptionActivity><![CDATA[null]]></au_decryptionActivity>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_outboundTargetLocation><![CDATA[FtpTarget:192168001162168559638082600003]]></au_outboundTargetLocation>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_outBoundEventSche><![CDATA[]]></au_outBoundEventSche>
-        <au_encryptionActivity><![CDATA[null]]></au_encryptionActivity>
-        <au_outboundArchiveFilePath><![CDATA[]]></au_outboundArchiveFilePath>
-        <au_outboundADVDBSource><![CDATA[null]]></au_outboundADVDBSource>
-        <au_parentServiceTypedID><![CDATA[EDITradingPartner:192168001162168551393938500028]]></au_parentServiceTypedID>
-        <au_outboundSourceLocation><![CDATA[none]]></au_outboundSourceLocation>
-        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
-        <au_ediTransactionSet><![CDATA[997]]></au_ediTransactionSet>
-        <au_sourceActivityValue><![CDATA[none]]></au_sourceActivityValue>
-        <au_isCreateTimeStampFolder><![CDATA[0]]></au_isCreateTimeStampFolder>
-        <au_outboundSourceType><![CDATA[null]]></au_outboundSourceType>
-        <au_version><![CDATA[1]]></au_version>
-        <au_outboundArchiveStrategy><![CDATA[default]]></au_outboundArchiveStrategy>
         <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_lastUsedControlNo><![CDATA[]]></au_lastUsedControlNo>
-        <au_sourceType1><![CDATA[none]]></au_sourceType1>
-        <au_ackType><![CDATA[null]]></au_ackType>
-        <au_outboundEventMode><![CDATA[NO]]></au_outboundEventMode>
+        <au_outboundADVDBSource><![CDATA[null]]></au_outboundADVDBSource>
         <au_testProductionIndicator><![CDATA[P]]></au_testProductionIndicator>
-        <au_generateMultipleGroups><![CDATA[false]]></au_generateMultipleGroups>
-        <au_outboundArchiveTargetType><![CDATA[null]]></au_outboundArchiveTargetType>
-        <au_seqFromGroupFormat><![CDATA[]]></au_seqFromGroupFormat>
-        <au_outboundArchiveLocation><![CDATA[null]]></au_outboundArchiveLocation>
-        <au_isEncryptionnRequired><![CDATA[0]]></au_isEncryptionnRequired>
-        <au_groupSenderID><![CDATA[35263377]]></au_groupSenderID>
-        <au_groupFunctionalID><![CDATA[FA]]></au_groupFunctionalID>
-        <au_groupEnvVersion><![CDATA[004010]]></au_groupEnvVersion>
-        <au_ediStandardVersion><![CDATA[004010]]></au_ediStandardVersion>
-        <au_tranUsedGlobalControlNo><![CDATA[1]]></au_tranUsedGlobalControlNo>
-        <au_archiveFilePattern><![CDATA[0|0]]></au_archiveFilePattern>
-        <au_docAdvSkipComplianceCheck><![CDATA[0]]></au_docAdvSkipComplianceCheck>
-        <au_creationDate><![CDATA[2023-06-01T10:41:52]]></au_creationDate>
-        <au_groupReceiverID><![CDATA[AMAZON]]></au_groupReceiverID>
-        <au_groupUsedGlobalControlNo><![CDATA[1]]></au_groupUsedGlobalControlNo>
-        <au_seqFromGroup><![CDATA[0]]></au_seqFromGroup>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_outboundSource><![CDATA[none]]></au_outboundSource>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_responsibleAgencyCode><![CDATA[X]]></au_responsibleAgencyCode>
-        <au_outboundTranslation><![CDATA[None]]></au_outboundTranslation>
-        <au_modifiedDate><![CDATA[2023-06-01T10:41:52]]></au_modifiedDate>
-        <au_isUnencryptedArchivalFile><![CDATA[0]]></au_isUnencryptedArchivalFile>
-        <au_isaEnvelope><![CDATA[EDIISAOutboundEnvelope:192168001162168559631022000001]]></au_isaEnvelope>
-        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
-        <au_overrideAssoAssignedCode><![CDATA[0]]></au_overrideAssoAssignedCode>
-        <au_recipientIdentityQual><![CDATA[null]]></au_recipientIdentityQual>
-        <au_senderIdentityQual><![CDATA[null]]></au_senderIdentityQual>
-        <au_seqFromLastUsedControlNo><![CDATA[null]]></au_seqFromLastUsedControlNo>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_hipaa><![CDATA[false]]></au_hipaa>
+        <au_id><![CDATA[192168001162168559631190800002]]></au_id>
+        <au_recipientIdentityQual><![CDATA[null]]></au_recipientIdentityQual>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_isCreateTimeStampFolder><![CDATA[0]]></au_isCreateTimeStampFolder>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_outBoundEventSche><![CDATA[]]></au_outBoundEventSche>
+        <au_applicationID><![CDATA[]]></au_applicationID>
+        <au_groupEnvVersion><![CDATA[004010]]></au_groupEnvVersion>
+        <au_outboundTranslation><![CDATA[None]]></au_outboundTranslation>
+        <au_outboundSourceLocation><![CDATA[none]]></au_outboundSourceLocation>
+        <au_groupFunctionalID><![CDATA[FA]]></au_groupFunctionalID>
         <au_expectAcknowledgement><![CDATA[]]></au_expectAcknowledgement>
+        <au_outboundSourceType><![CDATA[null]]></au_outboundSourceType>
+        <au_tranUsedGlobalControlNo><![CDATA[1]]></au_tranUsedGlobalControlNo>
+        <au_groupEnvelopeAssoCode><![CDATA[]]></au_groupEnvelopeAssoCode>
+        <au_outboundArchiveTargetType><![CDATA[null]]></au_outboundArchiveTargetType>
+        <au_archiveFilePattern><![CDATA[0|0]]></au_archiveFilePattern>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_outboundTargetLocation><![CDATA[FtpTarget:192168001162168559638082600003]]></au_outboundTargetLocation>
+        <au_outboundArchiveStrategy><![CDATA[default]]></au_outboundArchiveStrategy>
+        <au_targetFileName><![CDATA[AcknowledgeMentOutput|0|0|txt|N]]></au_targetFileName>
+        <au_outboundArchiveFilePath><![CDATA[]]></au_outboundArchiveFilePath>
+        <au_seqFromGroupFormat><![CDATA[]]></au_seqFromGroupFormat>
+        <au_responsibleAgencyCode><![CDATA[X]]></au_responsibleAgencyCode>
+        <au_outboundEventMode><![CDATA[NO]]></au_outboundEventMode>
+        <au_generateMultipleGroups><![CDATA[false]]></au_generateMultipleGroups>
         <au_entityName><![CDATA[EDIOutboundRelationship_11685595640539_7]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_outboundTargetType><![CDATA[Ftp]]></au_outboundTargetType>
+        <au_outboundArchiveLocation><![CDATA[null]]></au_outboundArchiveLocation>
+        <au_senderIdentityQual><![CDATA[null]]></au_senderIdentityQual>
+        <au_encryptionActivity><![CDATA[null]]></au_encryptionActivity>
+        <au_groupUsedGlobalControlNo><![CDATA[1]]></au_groupUsedGlobalControlNo>
+        <au_overrideAssoAssignedCode><![CDATA[0]]></au_overrideAssoAssignedCode>
+        <au_sourceActivityValue><![CDATA[none]]></au_sourceActivityValue>
     </AU_EDIOUTBOUNDRELATIONSHIP>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

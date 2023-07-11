@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EventRegistry>
-        <au_paramMapXml><![CDATA[<Variables><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]initializedFromConnect2[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]transactionInfo[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]Transaction:11685506921424[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable></Variables>]]></au_paramMapXml>
-        <au_modifiedDate><![CDATA[2023-05-31T12:03:52]]></au_modifiedDate>
-        <au_entityName><![CDATA[EventRegistry_SourceEvent_11685506921424_1]]></au_entityName>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_description><![CDATA[EventRegistry_SourceEvent_11685506921424_1]]></au_description>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
-        <au_eventparam><![CDATA[X12]]></au_eventparam>
-        <au_version><![CDATA[1]]></au_version>
-        <au_subscriberId><![CDATA[Transaction:192168001237124842117504600005]]></au_subscriberId>
-        <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_comments><![CDATA[null]]></au_comments>
         <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[EventRegistry_SourceEvent_11685506921424_1]]></au_entityName>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_id><![CDATA[192168001162168551483243200033]]></au_id>
-        <au_eventId><![CDATA[FTPEvent:192168001162168551483240500032]]></au_eventId>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_creationDate><![CDATA[2023-05-31T12:03:52]]></au_creationDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
+        <au_description><![CDATA[EventRegistry_SourceEvent_11685506921424_1]]></au_description>
+        <au_modifiedDate><![CDATA[2023-05-31T12:03:52]]></au_modifiedDate>
         <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_paramMapXml><![CDATA[<Variables><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]initializedFromConnect2[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]transactionInfo[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]Transaction:11685506921424[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable></Variables>]]></au_paramMapXml>
+        <au_eventId><![CDATA[FTPEvent:192168001162168551483240500032]]></au_eventId>
+        <au_subscriberId><![CDATA[Transaction:192168001237124842117504600005]]></au_subscriberId>
+        <au_eventparam><![CDATA[X12]]></au_eventparam>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_creationDate><![CDATA[2023-05-31T12:03:52]]></au_creationDate>
+        <au_id><![CDATA[192168001162168551483243200033]]></au_id>
+        <au_version><![CDATA[1]]></au_version>
     </AU_EventRegistry>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
