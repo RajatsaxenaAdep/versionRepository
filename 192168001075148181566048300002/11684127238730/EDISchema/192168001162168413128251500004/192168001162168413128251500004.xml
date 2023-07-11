@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EDISCHEMA>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_modifiedDate><![CDATA[2023-05-15T11:44:44]]></au_modifiedDate>
+        <au_description><![CDATA[X12_004010_845]]></au_description>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_id><![CDATA[192168001162168413128251500004]]></au_id>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[X12_004010_845]]></au_entityName>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
+        <au_creationDate><![CDATA[2023-05-15T11:44:44]]></au_creationDate>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_projectOwner><![CDATA[Project:11684127238730]]></au_projectOwner>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:include schemaLocation="web/EDISchemas/X12_004010/004010_845.xsd"/>
+<xs:element name="EDIRoot">
+<xs:annotation>
+<xs:appinfo>
+<xs:standard>004010 845</xs:standard>
+<xs:isHIPPA>False</xs:isHIPPA>
+<xs:documentation>004010 845</xs:documentation>
+<xs:fieldSeparator></xs:fieldSeparator>
+<xs:segmentSeparator></xs:segmentSeparator>
+<xs:compositeSeparator></xs:compositeSeparator>
+<xs:subCompositeSeparator></xs:subCompositeSeparator>
+<xs:repetitionSeparator></xs:repetitionSeparator>
+<xs:transactionEndSeparator></xs:transactionEndSeparator>
+<xs:releaseIndicator></xs:releaseIndicator>
+<xs:validateXML>false</xs:validateXML>
+</xs:appinfo>
+</xs:annotation>
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ISA" type="ISA" minOccurs="1" maxOccurs ="1"/>
+<xs:element name="GS" type="GS" minOccurs="1" maxOccurs ="1"/>
+<xs:element name="TS_845" type="TS_845" minOccurs="1" maxOccurs ="unbounded"/>
+<xs:element name="GE" type="GE" minOccurs="0" maxOccurs ="1"/>
+<xs:element name="IEA" type="IEA" minOccurs="0" maxOccurs ="1"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>]]></au_xsd>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
+        <xsdFilePath><![CDATA[Dictionary:004010_845:845:Dummy]]></xsdFilePath>
+        <au_dataDictionaryId><![CDATA[EDIDataDictionary:192168001034125076550892800011]]></au_dataDictionaryId>
+    </AU_EDISCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_dataDictionaryId" type="12"/>
+        <column name="au_isSkipCompliance" type="3"/>
+    </columnInfo>
+</data>
