@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EDIINBOUNDRELATIONSHIP>
+        <au_groupUsedGlobalControlNo><![CDATA[0]]></au_groupUsedGlobalControlNo>
+        <au_targetActivityType1><![CDATA[FtpTarget]]></au_targetActivityType1>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_timestampForTranslations2><![CDATA[0]]></au_timestampForTranslations2>
+        <au_timestampForTranslations3><![CDATA[0]]></au_timestampForTranslations3>
+        <au_modeForTranslations2><![CDATA[null]]></au_modeForTranslations2>
+        <au_timestampForTranslations1><![CDATA[0]]></au_timestampForTranslations1>
+        <au_decryptionActivity><![CDATA[null]]></au_decryptionActivity>
+        <au_translationsMapping3><![CDATA[None]]></au_translationsMapping3>
+        <au_groupAdvLastUsedControlNo><![CDATA[]]></au_groupAdvLastUsedControlNo>
+        <au_docAdvLastUsedControlNo><![CDATA[]]></au_docAdvLastUsedControlNo>
+        <au_fileArchivalInfo><![CDATA[{"isArchived":"false","inboundArchiveFilePath":"","isCreateTimeStampFolder":"false","timestampForTranslations1":"false","archiveSourceFileDateFormat1":"0","archiveSourceFileTimeFormat1":"0","status":601,"inboundArchiveStrategy":"default","archiveFilePattern":"0_0"}]]></au_fileArchivalInfo>
+        <au_docAdvGenerateAck><![CDATA[yesWithError]]></au_docAdvGenerateAck>
+        <au_ediStandardVersion><![CDATA[004010]]></au_ediStandardVersion>
+        <au_targetFileName2><![CDATA[null]]></au_targetFileName2>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_targetFileName1><![CDATA[OutputEDI850|0|0|txt|N]]></au_targetFileName1>
+        <au_modeForTranslations3><![CDATA[null]]></au_modeForTranslations3>
+        <au_targetActivity3><![CDATA[none]]></au_targetActivity3>
+        <au_inboundTranslations><![CDATA[null]]></au_inboundTranslations>
+        <au_version><![CDATA[1]]></au_version>
+        <au_ackType><![CDATA[null]]></au_ackType>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_transCountToProcess><![CDATA[2000]]></au_transCountToProcess>
+        <au_ediTransactionSet><![CDATA[850]]></au_ediTransactionSet>
+        <au_docUsedGlobalControlNo><![CDATA[0]]></au_docUsedGlobalControlNo>
+        <au_isDecryptionRequired><![CDATA[0]]></au_isDecryptionRequired>
+        <au_docAdvSkipComplianceCheck><![CDATA[1]]></au_docAdvSkipComplianceCheck>
+        <au_status><![CDATA[OFF]]></au_status>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[EDIInboundRelationship_11685506921424_6]]></au_description>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_docAdvTestIndicator><![CDATA[P]]></au_docAdvTestIndicator>
+        <au_associationAssignedCode><![CDATA[]]></au_associationAssignedCode>
+        <au_inboundSourceLocation><![CDATA[FTPEvent:192168001162168551483240500032]]></au_inboundSourceLocation>
+        <au_modeForTranslations1><![CDATA[Create]]></au_modeForTranslations1>
+        <au_translationsMapping1><![CDATA[DataMapping:192168001162168551507141900037]]></au_translationsMapping1>
+        <au_docAdvSequenceCheck><![CDATA[None]]></au_docAdvSequenceCheck>
+        <au_translationsMapping2><![CDATA[None]]></au_translationsMapping2>
+        <au_interAdvSequenceCheck><![CDATA[None]]></au_interAdvSequenceCheck>
+        <au_groupFunctionalID><![CDATA[PO]]></au_groupFunctionalID>
+        <au_ackStandard><![CDATA[]]></au_ackStandard>
+        <au_hipaa><![CDATA[false]]></au_hipaa>
+        <au_targetActivityType2><![CDATA[none]]></au_targetActivityType2>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_id><![CDATA[192168001162168551472056000031]]></au_id>
+        <au_targetActivity2><![CDATA[none]]></au_targetActivity2>
+        <au_groupAdvSequenceCheck><![CDATA[None]]></au_groupAdvSequenceCheck>
+        <au_inboundSourceType><![CDATA[Ftp]]></au_inboundSourceType>
+        <au_ediStandard><![CDATA[X12]]></au_ediStandard>
+        <au_isEncryptionnRequired><![CDATA[0]]></au_isEncryptionnRequired>
+        <au_modifiedDate><![CDATA[2023-05-31T12:02:01]]></au_modifiedDate>
+        <au_targetActivity1><![CDATA[FtpTarget:192168001162168551488780200034]]></au_targetActivity1>
+        <au_creationDate><![CDATA[2023-05-31T12:02:01]]></au_creationDate>
+        <au_entityName><![CDATA[EDIInboundRelationship_11685506921424_6]]></au_entityName>
+        <au_interUsedGlobalControlNo><![CDATA[0]]></au_interUsedGlobalControlNo>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_targetFileName3><![CDATA[null]]></au_targetFileName3>
+        <au_ackProcessing><![CDATA[reconcile]]></au_ackProcessing>
+        <au_encryptionActivity><![CDATA[null]]></au_encryptionActivity>
+        <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
+        <au_targetActivityType3><![CDATA[none]]></au_targetActivityType3>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_parentServiceTypedID><![CDATA[EDITradingPartner:192168001162168551393938500028]]></au_parentServiceTypedID>
+        <au_interAdvLastUsedControlNo><![CDATA[]]></au_interAdvLastUsedControlNo>
+    </AU_EDIINBOUNDRELATIONSHIP>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_parentServiceTypedID" type="12"/>
+        <column name="au_ediStandard" type="12"/>
+        <column name="au_ediStandardVersion" type="12"/>
+        <column name="au_associationAssignedCode" type="12"/>
+        <column name="au_ediTransactionSet" type="12"/>
+        <column name="au_translationsMapping1" type="12"/>
+        <column name="au_targetActivityType1" type="12"/>
+        <column name="au_targetActivity1" type="12"/>
+        <column name="au_targetFileName1" type="12"/>
+        <column name="au_translationsMapping2" type="12"/>
+        <column name="au_targetActivityType2" type="12"/>
+        <column name="au_targetActivity2" type="12"/>
+        <column name="au_targetFileName2" type="12"/>
+        <column name="au_translationsMapping3" type="12"/>
+        <column name="au_targetActivityType3" type="12"/>
+        <column name="au_targetActivity3" type="12"/>
+        <column name="au_targetFileName3" type="12"/>
+        <column name="au_inboundTranslations" type="12"/>
+        <column name="au_interAdvSequenceCheck" type="12"/>
+        <column name="au_interUsedGlobalControlNo" type="3"/>
+        <column name="au_interAdvLastUsedControlNo" type="12"/>
+        <column name="au_groupFunctionalID" type="12"/>
+        <column name="au_groupAdvSequenceCheck" type="12"/>
+        <column name="au_groupUsedGlobalControlNo" type="3"/>
+        <column name="au_groupAdvLastUsedControlNo" type="12"/>
+        <column name="au_docAdvSequenceCheck" type="12"/>
+        <column name="au_docUsedGlobalControlNo" type="3"/>
+        <column name="au_docAdvLastUsedControlNo" type="12"/>
+        <column name="au_docAdvSkipComplianceCheck" type="3"/>
+        <column name="au_docAdvTestIndicator" type="12"/>
+        <column name="au_docAdvGenerateAck" type="12"/>
+        <column name="au_modeForTranslations1" type="12"/>
+        <column name="au_timestampForTranslations1" type="3"/>
+        <column name="au_modeForTranslations2" type="12"/>
+        <column name="au_timestampForTranslations2" type="3"/>
+        <column name="au_modeForTranslations3" type="12"/>
+        <column name="au_timestampForTranslations3" type="3"/>
+        <column name="au_inboundSourceLocation" type="12"/>
+        <column name="au_inboundSourceType" type="12"/>
+        <column name="au_encryptionActivity" type="12"/>
+        <column name="au_decryptionActivity" type="12"/>
+        <column name="au_isDecryptionRequired" type="3"/>
+        <column name="au_isEncryptionnRequired" type="3"/>
+        <column name="au_transCountToProcess" type="4"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_ackType" type="12"/>
+        <column name="au_ackStandard" type="12"/>
+        <column name="au_hipaa" type="12"/>
+        <column name="au_ackProcessing" type="12"/>
+        <column name="au_status" type="12"/>
+        <column name="au_fileArchivalInfo" type="12"/>
+    </columnInfo>
+</data>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EDIISAOUTBOUNDEnvelope>
+        <au_interVersionID><![CDATA[00401]]></au_interVersionID>
+        <au_intSenderIDQualifier><![CDATA[ZZ]]></au_intSenderIDQualifier>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_parentServiceTypedID><![CDATA[EDITradingPartner:192168001162168551393938500028]]></au_parentServiceTypedID>
+        <au_modifiedDate><![CDATA[2023-06-01T11:34:08]]></au_modifiedDate>
+        <au_hexaCheckSubElement><![CDATA[0]]></au_hexaCheckSubElement>
+        <au_elementSepChar><![CDATA[42]]></au_elementSepChar>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_intSenderID><![CDATA[35263377]]></au_intSenderID>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_hexaCheckElement><![CDATA[0]]></au_hexaCheckElement>
+        <au_interUsedGlobalControlNo><![CDATA[0]]></au_interUsedGlobalControlNo>
+        <au_hexaCheckRepetition><![CDATA[0]]></au_hexaCheckRepetition>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_authCodeQualifier><![CDATA[00]]></au_authCodeQualifier>
+        <au_securityCode><![CDATA[]]></au_securityCode>
+        <au_segmentLineBreak><![CDATA[CRLF]]></au_segmentLineBreak>
+        <au_creationDate><![CDATA[2023-06-01T10:41:50]]></au_creationDate>
+        <au_id><![CDATA[192168001162168559631022000001]]></au_id>
+        <au_authcode><![CDATA[]]></au_authcode>
+        <au_acknowledge><![CDATA[1]]></au_acknowledge>
+        <au_description><![CDATA[Transaction_850_Ack_Envelope]]></au_description>
+        <au_segmentTermChar><![CDATA[62]]></au_segmentTermChar>
+        <au_interchangeStandards><![CDATA[U]]></au_interchangeStandards>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_repetitionSepChar><![CDATA[0]]></au_repetitionSepChar>
+        <au_intReceiverID><![CDATA[AMAZON]]></au_intReceiverID>
+        <au_subElementSepChar><![CDATA[58]]></au_subElementSepChar>
+        <au_securityCodeQualifier><![CDATA[00]]></au_securityCodeQualifier>
+        <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
+        <au_hexaCheckSegment><![CDATA[0]]></au_hexaCheckSegment>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_testIndicator><![CDATA[P]]></au_testIndicator>
+        <au_version><![CDATA[1]]></au_version>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_lastUsedIntControlNo><![CDATA[000036142]]></au_lastUsedIntControlNo>
+        <au_intReceiverIDQualifier><![CDATA[ZZ]]></au_intReceiverIDQualifier>
+        <au_entityName><![CDATA[Transaction_850_Ack_Envelope]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+    </AU_EDIISAOUTBOUNDEnvelope>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_parentServiceTypedID" type="12"/>
+        <column name="au_authCodeQualifier" type="12"/>
+        <column name="au_authcode" type="12"/>
+        <column name="au_securityCodeQualifier" type="12"/>
+        <column name="au_securityCode" type="12"/>
+        <column name="au_intSenderIDQualifier" type="12"/>
+        <column name="au_intSenderID" type="12"/>
+        <column name="au_intReceiverIDQualifier" type="12"/>
+        <column name="au_intReceiverID" type="12"/>
+        <column name="au_interchangeStandards" type="12"/>
+        <column name="au_interVersionID" type="12"/>
+        <column name="au_interUsedGlobalControlNo" type="3"/>
+        <column name="au_lastUsedIntControlNo" type="12"/>
+        <column name="au_acknowledge" type="12"/>
+        <column name="au_testIndicator" type="12"/>
+        <column name="au_elementSepChar" type="4"/>
+        <column name="au_subElementSepChar" type="4"/>
+        <column name="au_segmentTermChar" type="4"/>
+        <column name="au_repetitionSepChar" type="4"/>
+        <column name="au_hexaCheckElement" type="3"/>
+        <column name="au_hexaCheckSubElement" type="3"/>
+        <column name="au_hexaCheckSegment" type="3"/>
+        <column name="au_hexaCheckRepetition" type="3"/>
+        <column name="au_segmentLineBreak" type="12"/>
+    </columnInfo>
+</data>

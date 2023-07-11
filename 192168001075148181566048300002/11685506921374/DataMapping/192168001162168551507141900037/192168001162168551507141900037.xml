@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedDate><![CDATA[2023-05-31T12:10:01]]></au_modifiedDate>
+        <au_creationDate><![CDATA[2023-05-31T12:07:51]]></au_creationDate>
+        <au_entityName><![CDATA[Mapping_850_EDI]]></au_entityName>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules8808408665020279104.pdf]]></au_pdfFileName>
+        <au_projectOwner><![CDATA[Project:11685506921374]]></au_projectOwner>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><Interchange_Control_Header-ISA><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><ISA01><xsl:value-of select="EDIRoot/ISA/ISA01"/></ISA01><ISA02><xsl:value-of select="EDIRoot/ISA/ISA02"/></ISA02><ISA03><xsl:value-of select="EDIRoot/ISA/ISA03"/></ISA03><ISA04><xsl:value-of select="EDIRoot/ISA/ISA04"/></ISA04><ISA05><xsl:value-of select="EDIRoot/ISA/ISA05"/></ISA05><ISA06><xsl:value-of select="EDIRoot/ISA/ISA06"/></ISA06><ISA07><xsl:value-of select="EDIRoot/ISA/ISA07"/></ISA07><ISA09><xsl:value-of select="EDIRoot/ISA/ISA09"/></ISA09><ISA10><xsl:value-of select="EDIRoot/ISA/ISA10"/></ISA10><ISA11><xsl:value-of select="EDIRoot/ISA/ISA11"/></ISA11><ISA12><xsl:value-of select="EDIRoot/ISA/ISA12"/></ISA12><ISA13><xsl:value-of select="EDIRoot/ISA/ISA13"/></ISA13><ISA14><xsl:value-of select="EDIRoot/ISA/ISA14"/></ISA14><ISA15><xsl:value-of select="EDIRoot/ISA/ISA15"/></ISA15><ISA16><xsl:value-of select="EDIRoot/ISA/ISA16"/></ISA16><ISA17></ISA17></Interchange_Control_Header-ISA><Functional_Group_Header-GS><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><GS01><xsl:value-of select="EDIRoot/GS/GS01"/></GS01><GS02><xsl:value-of select="EDIRoot/GS/GS02"/></GS02><GS03><xsl:value-of select="EDIRoot/GS/GS03"/></GS03><GS04><xsl:value-of select="EDIRoot/GS/GS04"/></GS04><GS05><xsl:value-of select="EDIRoot/GS/GS05"/></GS05><GS06><xsl:value-of select="EDIRoot/GS/GS06"/></GS06><GS07><xsl:value-of select="EDIRoot/GS/GS07"/></GS07><GS08><xsl:value-of select="EDIRoot/GS/GS08"/></GS08><GS09></GS09></Functional_Group_Header-GS><Transaction_Set_Header-ST><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><ST01><xsl:value-of select="EDIRoot/TS_850/ST/ST01"/></ST01><ST02><xsl:value-of select="EDIRoot/TS_850/ST/ST02"/></ST02><ST03></ST03></Transaction_Set_Header-ST><Beginning_Segment_for_Purchase_Order-BEG><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><BEG01><xsl:value-of select="EDIRoot/TS_850/BEG/BEG01"/></BEG01><BEG02><xsl:value-of select="EDIRoot/TS_850/BEG/BEG02"/></BEG02><BEG03><xsl:value-of select="EDIRoot/TS_850/BEG/BEG03"/></BEG03><BEG05><xsl:value-of select="EDIRoot/TS_850/BEG/BEG05"/></BEG05><BEG06><xsl:value-of select="EDIRoot/TS_850/BEG/BEG06"/></BEG06></Beginning_Segment_for_Purchase_Order-BEG><Reference_Identification-REF><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><REF01></REF01><REF02></REF02><REF03></REF03></Reference_Identification-REF><Administrative_Communications_Contact-PER><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><PER01></PER01><PER02></PER02><PER03></PER03><PER04></PER04><PER05></PER05></Administrative_Communications_Contact-PER><Date_Time_Reference-DTM><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><DTM01></DTM01><DTM02></DTM02><DTM03></DTM03></Date_Time_Reference-DTM><Name-N1><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><N101></N101><N102></N102><N103></N103><N104></N104><N105></N105></Name-N1><Address_Information-N3><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><N301></N301><N302></N302><N303></N303></Address_Information-N3><Geographic_Location-N4><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><N401></N401><N402></N402><N403></N403><N404></N404></Geographic_Location-N4><Baseline_Item_Data-P01><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><PO101></PO101><PO102></PO102><PO103></PO103><PO104></PO104><PO105></PO105><PO106></PO106><PO107></PO107><PO108></PO108></Baseline_Item_Data-P01><Product_Item_Description-PID><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><PID01></PID01><PID02></PID02><PID03></PID03></Product_Item_Description-PID><Transaction_Totals-CTT><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><CTT01></CTT01><CTT02></CTT02><CTT03></CTT03></Transaction_Totals-CTT><Transaction_Set_Trailer-SE><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><SE01></SE01><SE02></SE02><SE03></SE03></Transaction_Set_Trailer-SE><Functional_Group_Trailer-GE><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><GE01></GE01><GE02></GE02><GE03></GE03></Functional_Group_Trailer-GE><Interchange_Control_Trailer-IEA><xsl:attribute name="isHeader"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><xsl:attribute name="isRemovedHeader"></xsl:attribute><IEA01></IEA01><IEA02></IEA02><IEA03></IEA03></Interchange_Control_Trailer-IEA></Root></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_description><![CDATA[Mapping_850_EDI]]></au_description>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_sourceSchema><![CDATA[EDISchema:192168001162168372229069200002]]></au_sourceSchema>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_targetSchema><![CDATA[AdvancePositionalSchema:192168001162168551492631400036]]></au_targetSchema>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>Mapping_850_EDI</mappingName>
+<mappingProject>Project:11685506921374</mappingProject>
+<mappingDescription>Mapping_850_EDI</mappingDescription>
+<sourceSchemaID>EDISchema:192168001162168372229069200002</sourceSchemaID>
+<targetSchemaID>AdvancePositionalSchema:192168001162168551492631400036</targetSchemaID>
+<mappingOwnerGroup>Group_1</mappingOwnerGroup>
+<mappingOwner>Rajat Saxena</mappingOwner>
+<mappingLastModifiedBy>Rajat Saxena</mappingLastModifiedBy>
+<mappingCreationDate>Wed May 31 12:07:51 IST 2023</mappingCreationDate>
+<mappingModifiedDate>Wed May 31 12:10:00 IST 2023</mappingModifiedDate>
+<reusable>null</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>EDIRoot</name>
+<schemaName>X12_004010_850</schemaName>
+<schemaID>EDISchema:192168001162168372229069200002</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>PositionalLayoutEDI</schemaName>
+<schemaID>AdvancePositionalSchema:192168001162168551492631400036</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA01</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA01</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA01">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA01" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA01" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA01" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA01" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA02</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA02</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA02">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA02" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA02" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA02" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA02" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA04</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA04</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA04">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA04" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA04" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA04" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA04" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA05</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA05</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA05">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA05" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA05" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA05" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA05" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA06</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA06</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA06">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA06" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA06" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA06" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA06" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA07</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA07</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA07">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA07" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA07" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA07" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA07" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA03</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA03</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA03">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA03" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA03" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA03" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA03" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA09</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA09</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA09">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA09" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA09" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA09" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA09" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA10</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA10</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA10">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA10" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA10" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA10" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA10" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA11</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA11</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA11">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA11" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA11" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA11" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA11" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA12</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA12</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA12">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA12" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA12" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA12" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA12" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA13</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA13</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA13">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA13" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA13" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA13" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA13" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA14</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA14</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA14">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA14" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA14" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA14" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA14" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA15</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA15</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA15">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA15" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA15" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA15" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA15" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Interchange_Control_Header-ISA/ISA16</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/ISA/ISA16</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ISA16">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Interchange_Control_Header-ISA/ISA16" mapString="$Input_X12_004010_850/EDIRoot/ISA/ISA16" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/ISA/ISA16" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/ISA/ISA16" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS01</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS01</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS01">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS01" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS01" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS01" mapString="$Input_X12_004010_850/EDIRoot/GS/GS01" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS02</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS02</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS02">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS02" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS02" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS02" mapString="$Input_X12_004010_850/EDIRoot/GS/GS02" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS03</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS03</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS03">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS03" mapString="$Input_X12_004010_850/EDIRoot/GS/GS03" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS03" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS03" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS04</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS04</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS04">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS04" mapString="$Input_X12_004010_850/EDIRoot/GS/GS04" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS04" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS04" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS05</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS05</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS05">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS05" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS05" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS05" mapString="$Input_X12_004010_850/EDIRoot/GS/GS05" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS06</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS06</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS06">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS06" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS06" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS06" mapString="$Input_X12_004010_850/EDIRoot/GS/GS06" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS08</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS08</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS08">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS08" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS08" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS08" mapString="$Input_X12_004010_850/EDIRoot/GS/GS08" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Functional_Group_Header-GS/GS07</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/GS/GS07</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GS07">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Functional_Group_Header-GS/GS07" mapString="$Input_X12_004010_850/EDIRoot/GS/GS07" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/GS/GS07" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/GS/GS07" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Transaction_Set_Header-ST/ST01</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ST01">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Transaction_Set_Header-ST/ST01" mapString="$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Transaction_Set_Header-ST/ST02</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ST02">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Transaction_Set_Header-ST/ST02" mapString="$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG01</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="BEG01">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG01" mapString="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG02</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="BEG02">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG02" mapString="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG03</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="BEG03">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG03" mapString="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG05</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="BEG05">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG05" mapString="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>PositionalLayoutEDI</targetName>
+<dest>/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG06</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="BEG06">
+<Position height="25" identify="&lt;S&gt;" label="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06" mapString="&lt;S&gt;$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG06" mapString="$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_id><![CDATA[192168001162168551507141900037]]></au_id>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":1685515187620,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"Mapping_850_EDI","mappingProject":"Project:11685506921374","mappingDescription":"Mapping_850_EDI","sourceSchemaID":"EDISchema:192168001162168372229069200002","targetSchemaID":"AdvancePositionalSchema:192168001162168551492631400036","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"PositionalLayoutEDI","schemaID":"AdvancePositionalSchema:192168001162168551492631400036","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"EDIRoot","schemaName":"X12_004010_850","schemaID":"EDISchema:192168001162168372229069200002"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA01","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA01","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515016045","elementItem":{"elementType":"SourceElement","name":"ISA01","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA01","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA01"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515016046_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515016046"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515016046","elementItem":{"elementType":"TargetElement","name":"ISA01","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA01","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA01"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515016045"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA01","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA01","sourcefielddisplayname":"ISA01","sourcefieldpath":"/EDIRoot/ISA/ISA01","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-1"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA02","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA02","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515017110","elementItem":{"elementType":"SourceElement","name":"ISA02","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA02","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA02"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515017111_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515017111"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515017111","elementItem":{"elementType":"TargetElement","name":"ISA02","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA02","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA02"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515017110"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA02","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA02","sourcefielddisplayname":"ISA02","sourcefieldpath":"/EDIRoot/ISA/ISA02","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-2"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA04","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA04","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515018067","elementItem":{"elementType":"SourceElement","name":"ISA04","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA04","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA04"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515018068_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515018068"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515018068","elementItem":{"elementType":"TargetElement","name":"ISA04","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA04","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA04"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515018067"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA04","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA04","sourcefielddisplayname":"ISA04","sourcefieldpath":"/EDIRoot/ISA/ISA04","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-3"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA05","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA05","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515019363","elementItem":{"elementType":"SourceElement","name":"ISA05","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA05","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA05"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515019364_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515019364"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515019364","elementItem":{"elementType":"TargetElement","name":"ISA05","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA05","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA05"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515019363"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA05","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA05","sourcefielddisplayname":"ISA05","sourcefieldpath":"/EDIRoot/ISA/ISA05","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-4"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA06","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA06","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515020379","elementItem":{"elementType":"SourceElement","name":"ISA06","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA06","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA06"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515020380_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515020380"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515020380","elementItem":{"elementType":"TargetElement","name":"ISA06","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA06","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA06"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515020379"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA06","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA06","sourcefielddisplayname":"ISA06","sourcefieldpath":"/EDIRoot/ISA/ISA06","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-5"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA07","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA07","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515021739","elementItem":{"elementType":"SourceElement","name":"ISA07","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA07","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA07"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515021740_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515021740"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515021740","elementItem":{"elementType":"TargetElement","name":"ISA07","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA07","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA07"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515021739"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA07","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA07","sourcefielddisplayname":"ISA07","sourcefieldpath":"/EDIRoot/ISA/ISA07","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-6"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA03","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA03","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515046579","elementItem":{"elementType":"SourceElement","name":"ISA03","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA03","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA03"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515046580_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515046580"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515046580","elementItem":{"elementType":"TargetElement","name":"ISA03","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA03","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA03"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515046579"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA03","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA03","sourcefielddisplayname":"ISA03","sourcefieldpath":"/EDIRoot/ISA/ISA03","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-15"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA09","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA09","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515098267","elementItem":{"elementType":"SourceElement","name":"ISA09","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA09","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA09"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515098268_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515098268"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515098268","elementItem":{"elementType":"TargetElement","name":"ISA09","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA09","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA09"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515098267"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA09","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA09","sourcefielddisplayname":"ISA09","sourcefieldpath":"/EDIRoot/ISA/ISA09","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-16"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA10","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA10","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515099595","elementItem":{"elementType":"SourceElement","name":"ISA10","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA10","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA10"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515099596_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515099596"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515099596","elementItem":{"elementType":"TargetElement","name":"ISA10","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA10","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA10"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515099595"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA10","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA10","sourcefielddisplayname":"ISA10","sourcefieldpath":"/EDIRoot/ISA/ISA10","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-17"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA11","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA11","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515101091","elementItem":{"elementType":"SourceElement","name":"ISA11","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA11","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA11"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515101092_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515101092"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515101092","elementItem":{"elementType":"TargetElement","name":"ISA11","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA11","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA11"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515101091"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA11","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA11","sourcefielddisplayname":"ISA11","sourcefieldpath":"/EDIRoot/ISA/ISA11","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-18"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA12","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA12","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515102211","elementItem":{"elementType":"SourceElement","name":"ISA12","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA12","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA12"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515102212_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515102212"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515102212","elementItem":{"elementType":"TargetElement","name":"ISA12","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA12","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA12"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515102211"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA12","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA12","sourcefielddisplayname":"ISA12","sourcefieldpath":"/EDIRoot/ISA/ISA12","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-19"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA13","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA13","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515105611","elementItem":{"elementType":"SourceElement","name":"ISA13","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA13","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA13"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515105612_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515105612"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515105612","elementItem":{"elementType":"TargetElement","name":"ISA13","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA13","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA13"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515105611"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA13","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA13","sourcefielddisplayname":"ISA13","sourcefieldpath":"/EDIRoot/ISA/ISA13","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-20"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA14","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA14","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515107275","elementItem":{"elementType":"SourceElement","name":"ISA14","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA14","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA14"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515107276_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515107276"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515107276","elementItem":{"elementType":"TargetElement","name":"ISA14","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA14","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA14"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515107275"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA14","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA14","sourcefielddisplayname":"ISA14","sourcefieldpath":"/EDIRoot/ISA/ISA14","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-21"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA15","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA15","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515108315","elementItem":{"elementType":"SourceElement","name":"ISA15","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA15","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA15"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515108316_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515108316"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515108316","elementItem":{"elementType":"TargetElement","name":"ISA15","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA15","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA15"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515108315"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA15","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA15","sourcefielddisplayname":"ISA15","sourcefieldpath":"/EDIRoot/ISA/ISA15","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-22"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ISA16","targetfieldpath":"/Root/Interchange_Control_Header-ISA/ISA16","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515109645","elementItem":{"elementType":"SourceElement","name":"ISA16","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA16","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/ISA/ISA16"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515109646_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515109646"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515109646","elementItem":{"elementType":"TargetElement","name":"ISA16","expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA16","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Interchange_Control_Header-ISA/ISA16"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515109645"]}],"expression":"$Input_X12_004010_850/EDIRoot/ISA/ISA16","targetrecord":"Interchange_Control_Header-ISA","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ISA16","sourcefielddisplayname":"ISA16","sourcefieldpath":"/EDIRoot/ISA/ISA16","sourcerecord":"ISA"}],"markComplete":false,"mapId":"Map-23"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS01","targetfieldpath":"/Root/Functional_Group_Header-GS/GS01","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515115011","elementItem":{"elementType":"SourceElement","name":"GS01","expression":"$Input_X12_004010_850/EDIRoot/GS/GS01","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS01"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515115012_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515115012"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515115012","elementItem":{"elementType":"TargetElement","name":"GS01","expression":"$Input_X12_004010_850/EDIRoot/GS/GS01","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS01"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515115011"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS01","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS01","sourcefielddisplayname":"GS01","sourcefieldpath":"/EDIRoot/GS/GS01","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-24"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS02","targetfieldpath":"/Root/Functional_Group_Header-GS/GS02","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515118035","elementItem":{"elementType":"SourceElement","name":"GS02","expression":"$Input_X12_004010_850/EDIRoot/GS/GS02","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS02"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515118036_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515118036"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515118036","elementItem":{"elementType":"TargetElement","name":"GS02","expression":"$Input_X12_004010_850/EDIRoot/GS/GS02","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS02"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515118035"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS02","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS02","sourcefielddisplayname":"GS02","sourcefieldpath":"/EDIRoot/GS/GS02","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-25"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS03","targetfieldpath":"/Root/Functional_Group_Header-GS/GS03","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515119170","elementItem":{"elementType":"SourceElement","name":"GS03","expression":"$Input_X12_004010_850/EDIRoot/GS/GS03","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS03"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515119171_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515119171"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515119171","elementItem":{"elementType":"TargetElement","name":"GS03","expression":"$Input_X12_004010_850/EDIRoot/GS/GS03","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS03"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515119170"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS03","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS03","sourcefielddisplayname":"GS03","sourcefieldpath":"/EDIRoot/GS/GS03","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-26"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS04","targetfieldpath":"/Root/Functional_Group_Header-GS/GS04","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515120491","elementItem":{"elementType":"SourceElement","name":"GS04","expression":"$Input_X12_004010_850/EDIRoot/GS/GS04","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS04"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515120492_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515120492"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515120492","elementItem":{"elementType":"TargetElement","name":"GS04","expression":"$Input_X12_004010_850/EDIRoot/GS/GS04","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS04"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515120491"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS04","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS04","sourcefielddisplayname":"GS04","sourcefieldpath":"/EDIRoot/GS/GS04","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-27"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS05","targetfieldpath":"/Root/Functional_Group_Header-GS/GS05","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515121643","elementItem":{"elementType":"SourceElement","name":"GS05","expression":"$Input_X12_004010_850/EDIRoot/GS/GS05","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS05"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515121644_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515121644"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515121644","elementItem":{"elementType":"TargetElement","name":"GS05","expression":"$Input_X12_004010_850/EDIRoot/GS/GS05","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS05"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515121643"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS05","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS05","sourcefielddisplayname":"GS05","sourcefieldpath":"/EDIRoot/GS/GS05","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-28"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS06","targetfieldpath":"/Root/Functional_Group_Header-GS/GS06","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515123738","elementItem":{"elementType":"SourceElement","name":"GS06","expression":"$Input_X12_004010_850/EDIRoot/GS/GS06","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS06"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515123739_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515123739"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515123739","elementItem":{"elementType":"TargetElement","name":"GS06","expression":"$Input_X12_004010_850/EDIRoot/GS/GS06","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS06"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515123738"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS06","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS06","sourcefielddisplayname":"GS06","sourcefieldpath":"/EDIRoot/GS/GS06","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-29"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS08","targetfieldpath":"/Root/Functional_Group_Header-GS/GS08","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515125915","elementItem":{"elementType":"SourceElement","name":"GS08","expression":"$Input_X12_004010_850/EDIRoot/GS/GS08","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS08"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515125916_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515125916"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515125916","elementItem":{"elementType":"TargetElement","name":"GS08","expression":"$Input_X12_004010_850/EDIRoot/GS/GS08","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS08"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515125915"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS08","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS08","sourcefielddisplayname":"GS08","sourcefieldpath":"/EDIRoot/GS/GS08","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-30"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"GS07","targetfieldpath":"/Root/Functional_Group_Header-GS/GS07","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515127538","elementItem":{"elementType":"SourceElement","name":"GS07","expression":"$Input_X12_004010_850/EDIRoot/GS/GS07","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/GS/GS07"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515127539_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515127539"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515127539","elementItem":{"elementType":"TargetElement","name":"GS07","expression":"$Input_X12_004010_850/EDIRoot/GS/GS07","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Functional_Group_Header-GS/GS07"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515127538"]}],"expression":"$Input_X12_004010_850/EDIRoot/GS/GS07","targetrecord":"Functional_Group_Header-GS","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"GS07","sourcefielddisplayname":"GS07","sourcefieldpath":"/EDIRoot/GS/GS07","sourcerecord":"GS"}],"markComplete":false,"mapId":"Map-31"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ST01","targetfieldpath":"/Root/Transaction_Set_Header-ST/ST01","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515132786","elementItem":{"elementType":"SourceElement","name":"ST01","expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515132787_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515132787"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515132787","elementItem":{"elementType":"TargetElement","name":"ST01","expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Transaction_Set_Header-ST/ST01"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515132786"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST01","targetrecord":"Transaction_Set_Header-ST","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ST01","sourcefielddisplayname":"ST01","sourcefieldpath":"/EDIRoot/TS_850/ST/ST01","sourcerecord":"ST"}],"markComplete":false,"mapId":"Map-32"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"ST02","targetfieldpath":"/Root/Transaction_Set_Header-ST/ST02","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515134255","elementItem":{"elementType":"SourceElement","name":"ST02","expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515134256_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515134256"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515134256","elementItem":{"elementType":"TargetElement","name":"ST02","expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Transaction_Set_Header-ST/ST02"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515134255"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/ST/ST02","targetrecord":"Transaction_Set_Header-ST","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"ST02","sourcefielddisplayname":"ST02","sourcefieldpath":"/EDIRoot/TS_850/ST/ST02","sourcerecord":"ST"}],"markComplete":false,"mapId":"Map-33"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"BEG01","targetfieldpath":"/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG01","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515143139","elementItem":{"elementType":"SourceElement","name":"BEG01","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515143140_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515143140"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515143140","elementItem":{"elementType":"TargetElement","name":"BEG01","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG01"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515143139"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG01","targetrecord":"Beginning_Segment_for_Purchase_Order-BEG","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"BEG01","sourcefielddisplayname":"BEG01","sourcefieldpath":"/EDIRoot/TS_850/BEG/BEG01","sourcerecord":"BEG"}],"markComplete":false,"mapId":"Map-34"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"BEG02","targetfieldpath":"/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG02","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515145028","elementItem":{"elementType":"SourceElement","name":"BEG02","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515145029_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515145029"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515145029","elementItem":{"elementType":"TargetElement","name":"BEG02","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG02"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515145028"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG02","targetrecord":"Beginning_Segment_for_Purchase_Order-BEG","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"BEG02","sourcefielddisplayname":"BEG02","sourcefieldpath":"/EDIRoot/TS_850/BEG/BEG02","sourcerecord":"BEG"}],"markComplete":false,"mapId":"Map-35"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"BEG03","targetfieldpath":"/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG03","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515146451","elementItem":{"elementType":"SourceElement","name":"BEG03","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515146452_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515146452"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515146452","elementItem":{"elementType":"TargetElement","name":"BEG03","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG03"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515146451"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG03","targetrecord":"Beginning_Segment_for_Purchase_Order-BEG","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"BEG03","sourcefielddisplayname":"BEG03","sourcefieldpath":"/EDIRoot/TS_850/BEG/BEG03","sourcerecord":"BEG"}],"markComplete":false,"mapId":"Map-36"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"BEG05","targetfieldpath":"/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG05","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515151722","elementItem":{"elementType":"SourceElement","name":"BEG05","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515151723_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515151723"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515151723","elementItem":{"elementType":"TargetElement","name":"BEG05","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG05"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515151722"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG05","targetrecord":"Beginning_Segment_for_Purchase_Order-BEG","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"BEG05","sourcefielddisplayname":"BEG05","sourcefieldpath":"/EDIRoot/TS_850/BEG/BEG05","sourcerecord":"BEG"}],"markComplete":false,"mapId":"Map-37"},{"order":1,"targetName":"PositionalLayoutEDI","targetfield":"BEG06","targetfieldpath":"/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG06","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1685515154459","elementItem":{"elementType":"SourceElement","name":"BEG06","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06","paramsCount":0,"syntax":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1685515154460_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1685515154460"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1685515154460","elementItem":{"elementType":"TargetElement","name":"BEG06","expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06","paramsCount":1,"syntax":"PositionalLayoutEDI/Root/Beginning_Segment_for_Purchase_Order-BEG/BEG06"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1685515154459"]}],"expression":"$Input_X12_004010_850/EDIRoot/TS_850/BEG/BEG06","targetrecord":"Beginning_Segment_for_Purchase_Order-BEG","mapping":[{"sourceName":"X12_004010_850","operatortype":"field","sourcefield":"BEG06","sourcefielddisplayname":"BEG06","sourcefieldpath":"/EDIRoot/TS_850/BEG/BEG06","sourcerecord":"BEG"}],"markComplete":false,"mapId":"Map-38"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+    </columnInfo>
+</data>
