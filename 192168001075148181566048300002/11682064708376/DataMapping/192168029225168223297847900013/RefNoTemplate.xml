@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<template>
+<xslTemplate>
+&lt;xsl:template name="RefNoTemplate">
+&lt;xsl:param name="level"/>
+	&lt;xsl:param name="id"/>
+	&lt;!-- template code starts-->&lt;xsl:choose>&lt;xsl:when test="$level=2">&lt;xsl:value-of select="$id"/>&lt;/xsl:when>&lt;xsl:otherwise>&lt;/xsl:otherwise>&lt;/xsl:choose>
+	&lt;!-- template code ends-->
+&lt;/xsl:template>
+</xslTemplate>
+<mappingTemplate>
+WHEN CONDITION{$level=2} VALUE=[$id ] OTHERWISE VALUE=[ ]
+</mappingTemplate>
+</template>
+</templates>
