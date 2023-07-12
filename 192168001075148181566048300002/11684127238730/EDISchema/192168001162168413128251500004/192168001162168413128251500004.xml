@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EDISCHEMA>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
-        <au_modifiedDate><![CDATA[2023-05-15T11:44:44]]></au_modifiedDate>
-        <au_description><![CDATA[X12_004010_845]]></au_description>
-        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_id><![CDATA[192168001162168413128251500004]]></au_id>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_version><![CDATA[1]]></au_version>
         <au_entityName><![CDATA[X12_004010_845]]></au_entityName>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
-        <au_creationDate><![CDATA[2023-05-15T11:44:44]]></au_creationDate>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_projectOwner><![CDATA[Project:11684127238730]]></au_projectOwner>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 <xs:include schemaLocation="web/EDISchemas/X12_004010/004010_845.xsd"/>
@@ -48,10 +34,24 @@
 </xs:complexType>
 </xs:element>
 </xs:schema>]]></au_xsd>
-        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
-        <au_version><![CDATA[1]]></au_version>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <xsdFilePath><![CDATA[Dictionary:004010_845:845:Dummy]]></xsdFilePath>
         <au_dataDictionaryId><![CDATA[EDIDataDictionary:192168001034125076550892800011]]></au_dataDictionaryId>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_projectOwner><![CDATA[Project:11684127238730]]></au_projectOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:11681186927216]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedDate><![CDATA[2023-05-15T11:44:44]]></au_modifiedDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_creationDate><![CDATA[2023-05-15T11:44:44]]></au_creationDate>
+        <au_description><![CDATA[X12_004010_845]]></au_description>
+        <au_userOwner><![CDATA[IndigoUser:11681186927216]]></au_userOwner>
+        <au_id><![CDATA[192168001162168413128251500004]]></au_id>
     </AU_EDISCHEMA>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
